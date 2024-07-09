@@ -14,6 +14,10 @@ const userSchema = new mongoose.Schema({
      password:{
         type : String ,
         require : true,
+     },
+     avatar:{
+            type: String,
+            default: "https://images.pexels.com/photos/1704488/pexels-photo-1704488.jpeg?auto=compress&cs=tinysrgb&w=600"
      }
 }, { timestamps: true });
 
