@@ -8,7 +8,7 @@ import cookieParser from 'cookie-parser';
 dotenv.config();
 
 mongoose
-   .connect(process.env.MONGO)
+   .connect("mongodb+srv://yash20545:UwE8nuSoM2coHqS2@mern-estate.of6uiz0.mongodb.net/?retryWrites=true&w=majority&appName=mern-estate")
    .then(() => {
     console.log('Connected to MongoDb') 
     })
